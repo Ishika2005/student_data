@@ -14,7 +14,7 @@ const FirstPage = () => {
   const dataObject = {
     fname: firstName,
     lname: lastName,
-    mobile: mobile,
+    mobile: mobilee,
     };
     const isDisabled = !firstName || !lastName || !mobile;
     const handleSubmit = () => {
